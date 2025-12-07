@@ -1,0 +1,463 @@
+[
+  {
+    "id": "msg_1",
+    "avatar": "https://picsum.photos/id/1/100/100",
+    "nickname": "张三",
+    "timestamp": 1765036800,
+    "summary": "在吗？有空聊聊",
+    "type": "friend",
+    "isRead": false,
+    "unreadCount": 3,
+    "isPinned": true,
+    "content": {
+      "type": "text",
+      "text": "在吗？有空聊聊"
+    }
+  },
+  {
+    "id": "msg_2",
+    "avatar": "https://picsum.photos/id/7/100/100",
+    "nickname": "美食达人",
+    "timestamp": 1764950400,
+    "summary": "[图片] 这家餐厅真的很好吃！",
+    "type": "friend",
+    "isRead": false,
+    "unreadCount": 1,
+    "isPinned": true,
+    "content": {
+      "type": "image",
+      "text": "这家餐厅真的很好吃，推荐给你！",
+      "imageURL": "https://picsum.photos/400/300"
+    }
+  },
+  {
+    "id": "msg_3",
+    "avatar": "douyin_official",
+    "nickname": "抖音官方",
+    "timestamp": 1764864000,
+    "summary": "恭喜获得新人专属礼包！",
+    "type": "promotion",
+    "isRead": false,
+    "unreadCount": 1,
+    "isPinned": false,
+    "content": {
+      "type": "button",
+      "text": "恭喜获得新人专属礼包！限时24小时，过期作废~",
+      "buttonText": "立即领取",
+      "buttonAction": "claim_gift"
+    }
+  },
+  {
+    "id": "msg_4",
+    "avatar": "system_notification",
+    "nickname": "系统通知",
+    "timestamp": 1764777600,
+    "summary": "您的账号已完成安全认证",
+    "type": "system",
+    "isRead": false,
+    "unreadCount": 1,
+    "isPinned": false,
+    "content": {
+      "type": "text",
+      "text": "您的账号已完成安全认证，请妥善保管账号信息"
+    }
+  },
+  {
+    "id": "msg_5",
+    "avatar": "https://picsum.photos/id/2/100/100",
+    "nickname": "李四",
+    "timestamp": 1764691200,
+    "summary": "刚看到你的视频，太有趣了！",
+    "type": "friend",
+    "isRead": false,
+    "unreadCount": 2,
+    "isPinned": false,
+    "content": {
+      "type": "text",
+      "text": "刚看到你的视频，太有趣了！"
+    }
+  },
+  {
+    "id": "msg_6",
+    "avatar": "live_reminder",
+    "nickname": "直播提醒",
+    "timestamp": 1764604800,
+    "summary": "您关注的主播「音乐达人」正在直播",
+    "type": "live",
+    "isRead": false,
+    "unreadCount": 1,
+    "isPinned": false,
+    "content": {
+      "type": "text",
+      "text": "您关注的主播「音乐达人」正在直播"
+    }
+  },
+  {
+    "id": "msg_7",
+    "avatar": "https://picsum.photos/id/3/100/100",
+    "nickname": "王五",
+    "timestamp": 1764518400,
+    "summary": "周末一起出去玩吧",
+    "type": "friend",
+    "isRead": true,
+    "unreadCount": 0,
+    "isPinned": false,
+    "content": {
+      "type": "text",
+      "text": "周末一起出去玩吧"
+    }
+  },
+  {
+    "id": "msg_8",
+    "avatar": "comment_interaction",
+    "nickname": "评论互动",
+    "timestamp": 1764432000,
+    "summary": "用户「阳光少年」评论了你的视频",
+    "type": "comment",
+    "isRead": false,
+    "unreadCount": 5,
+    "isPinned": false,
+    "content": {
+      "type": "text",
+      "text": "用户「阳光少年」评论了你的视频：太棒了！"
+    }
+  },
+  {
+    "id": "msg_9",
+    "avatar": "https://picsum.photos/id/8/100/100",
+    "nickname": "旅行博主",
+    "timestamp": 1764345600,
+    "summary": "[图片] 今天拍的日落超美",
+    "type": "friend",
+    "isRead": false,
+    "unreadCount": 1,
+    "isPinned": false,
+    "content": {
+      "type": "image",
+      "text": "今天拍的日落超美，分享给你看",
+      "imageURL": "https://picsum.photos/400/300?sunset"
+    }
+  },
+  {
+    "id": "msg_10",
+    "avatar": "https://picsum.photos/id/4/100/100",
+    "nickname": "小红",
+    "timestamp": 1764259200,
+    "summary": "你发的那个教程太有用了！",
+    "type": "friend",
+    "isRead": true,
+    "unreadCount": 0,
+    "isPinned": false,
+    "content": {
+      "type": "text",
+      "text": "你发的那个教程太有用了，谢谢分享！"
+    }
+  },
+  {
+    "id": "msg_11",
+    "avatar": "security_center",
+    "nickname": "安全中心",
+    "timestamp": 1764172800,
+    "summary": "检测到您的账号在新设备登录",
+    "type": "system",
+    "isRead": false,
+    "unreadCount": 1,
+    "isPinned": false,
+    "content": {
+      "type": "text",
+      "text": "检测到您的账号在新设备登录，如非本人操作请及时修改密码"
+    }
+  },
+  {
+    "id": "msg_12",
+    "avatar": "douyin_helper",
+    "nickname": "活动中心",
+    "timestamp": 1764086400,
+    "summary": "春节红包活动火热进行中",
+    "type": "promotion",
+    "isRead": true,
+    "unreadCount": 0,
+    "isPinned": false,
+    "content": {
+      "type": "button",
+      "text": "春节红包活动火热进行中，完成任务瓜分百万现金！",
+      "buttonText": "参与活动",
+      "buttonAction": "activity"
+    }
+  },
+  {
+    "id": "msg_13",
+    "avatar": "https://picsum.photos/id/5/100/100",
+    "nickname": "小明",
+    "timestamp": 1764000000,
+    "summary": "收到你的礼物了，非常感谢！",
+    "type": "friend",
+    "isRead": true,
+    "unreadCount": 0,
+    "isPinned": false,
+    "content": {
+      "type": "text",
+      "text": "收到你的礼物了，非常感谢！"
+    }
+  },
+  {
+    "id": "msg_14",
+    "avatar": "live_reminder",
+    "nickname": "直播提醒",
+    "timestamp": 1763913600,
+    "summary": "您关注的主播「美食探店」开播了",
+    "type": "live",
+    "isRead": true,
+    "unreadCount": 0,
+    "isPinned": false,
+    "content": {
+      "type": "text",
+      "text": "您关注的主播「美食探店」开播了"
+    }
+  },
+  {
+    "id": "msg_15",
+    "avatar": "https://picsum.photos/id/10/100/100",
+    "nickname": "摄影师小李",
+    "timestamp": 1763827200,
+    "summary": "[图片] 照片已经修好了",
+    "type": "friend",
+    "isRead": false,
+    "unreadCount": 2,
+    "isPinned": false,
+    "content": {
+      "type": "image",
+      "text": "照片已经修好了，发给你",
+      "imageURL": "https://picsum.photos/400/300?portrait"
+    }
+  },
+  {
+    "id": "msg_16",
+    "avatar": "https://picsum.photos/id/6/100/100",
+    "nickname": "老王",
+    "timestamp": 1763740800,
+    "summary": "项目的事情聊一下",
+    "type": "friend",
+    "isRead": true,
+    "unreadCount": 0,
+    "isPinned": false,
+    "content": {
+      "type": "text",
+      "text": "项目的事情聊一下"
+    }
+  },
+  {
+    "id": "msg_17",
+    "avatar": "message_helper",
+    "nickname": "消息助手",
+    "timestamp": 1763654400,
+    "summary": "您有3条新的评论待查看",
+    "type": "system",
+    "isRead": true,
+    "unreadCount": 0,
+    "isPinned": false,
+    "content": {
+      "type": "text",
+      "text": "您有3条新的评论待查看"
+    }
+  },
+  {
+    "id": "msg_18",
+    "avatar": "comment_interaction",
+    "nickname": "评论互动",
+    "timestamp": 1763568000,
+    "summary": "用户「快乐小鱼」回复了你的评论",
+    "type": "comment",
+    "isRead": false,
+    "unreadCount": 3,
+    "isPinned": false,
+    "content": {
+      "type": "text",
+      "text": "用户「快乐小鱼」回复了你的评论"
+    }
+  },
+  {
+    "id": "msg_19",
+    "avatar": "https://picsum.photos/id/11/100/100",
+    "nickname": "程序员阿强",
+    "timestamp": 1763481600,
+    "summary": "代码写完了吗？",
+    "type": "friend",
+    "isRead": false,
+    "unreadCount": 4,
+    "isPinned": false,
+    "content": {
+      "type": "text",
+      "text": "代码写完了吗？"
+    }
+  },
+  {
+    "id": "msg_20",
+    "avatar": "https://picsum.photos/id/17/100/100",
+    "nickname": "宠物博主",
+    "timestamp": 1763395200,
+    "summary": "[图片] 我家猫咪太可爱了",
+    "type": "friend",
+    "isRead": true,
+    "unreadCount": 0,
+    "isPinned": false,
+    "content": {
+      "type": "image",
+      "text": "我家猫咪太可爱了，分享给你看",
+      "imageURL": "https://picsum.photos/400/300?cat"
+    }
+  },
+  {
+    "id": "msg_21",
+    "avatar": "live_reminder",
+    "nickname": "直播提醒",
+    "timestamp": 1763308800,
+    "summary": "您关注的主播「游戏高手」正在直播",
+    "type": "live",
+    "isRead": false,
+    "unreadCount": 1,
+    "isPinned": false,
+    "content": {
+      "type": "text",
+      "text": "您关注的主播「游戏高手」正在直播王者荣耀"
+    }
+  },
+  {
+    "id": "msg_22",
+    "avatar": "https://picsum.photos/id/12/100/100",
+    "nickname": "设计师小美",
+    "timestamp": 1763308800,
+    "summary": "UI设计稿已更新，请查收",
+    "type": "friend",
+    "isRead": true,
+    "unreadCount": 0,
+    "isPinned": false,
+    "content": {
+      "type": "text",
+      "text": "UI设计稿已更新，请查收"
+    }
+  },
+  {
+    "id": "msg_23",
+    "avatar": "douyin_official",
+    "nickname": "会员中心",
+    "timestamp": 1763308800,
+    "summary": "您的会员即将到期",
+    "type": "promotion",
+    "isRead": false,
+    "unreadCount": 1,
+    "isPinned": false,
+    "content": {
+      "type": "button",
+      "text": "您的会员即将到期，续费享8折优惠",
+      "buttonText": "立即续费",
+      "buttonAction": "renew"
+    }
+  },
+  {
+    "id": "msg_24",
+    "avatar": "comment_interaction",
+    "nickname": "评论互动",
+    "timestamp": 1763308800,
+    "summary": "你的视频收到了100+个新评论",
+    "type": "comment",
+    "isRead": true,
+    "unreadCount": 0,
+    "isPinned": false,
+    "content": {
+      "type": "text",
+      "text": "你的视频收到了100+个新评论"
+    }
+  },
+  {
+    "id": "msg_25",
+    "avatar": "https://picsum.photos/id/13/100/100",
+    "nickname": "音乐制作人",
+    "timestamp": 1763308800,
+    "summary": "新歌已发布，快来听听",
+    "type": "friend",
+    "isRead": true,
+    "unreadCount": 0,
+    "isPinned": false,
+    "content": {
+      "type": "text",
+      "text": "新歌已发布，快来听听"
+    }
+  },
+  {
+    "id": "msg_26",
+    "avatar": "https://picsum.photos/id/14/100/100",
+    "nickname": "运动达人",
+    "timestamp": 1763308800,
+    "summary": "今天跑步打卡了吗？",
+    "type": "friend",
+    "isRead": false,
+    "unreadCount": 1,
+    "isPinned": false,
+    "content": {
+      "type": "text",
+      "text": "今天跑步打卡了吗？"
+    }
+  },
+  {
+    "id": "msg_27",
+    "avatar": "security_center",
+    "nickname": "安全中心",
+    "timestamp": 1763308800,
+    "summary": "您已成功修改登录密码",
+    "type": "system",
+    "isRead": true,
+    "unreadCount": 0,
+    "isPinned": false,
+    "content": {
+      "type": "text",
+      "text": "您已成功修改登录密码"
+    }
+  },
+  {
+    "id": "msg_28",
+    "avatar": "https://picsum.photos/id/15/100/100",
+    "nickname": "读书会小伙伴",
+    "timestamp": 1763308800,
+    "summary": "这本书真的很推荐！",
+    "type": "friend",
+    "isRead": true,
+    "unreadCount": 0,
+    "isPinned": false,
+    "content": {
+      "type": "text",
+      "text": "这本书真的很推荐！"
+    }
+  },
+  {
+    "id": "msg_29",
+    "avatar": "https://picsum.photos/id/16/100/100",
+    "nickname": "咖啡爱好者",
+    "timestamp": 1763308800,
+    "summary": "发现了一家超棒的咖啡店",
+    "type": "friend",
+    "isRead": false,
+    "unreadCount": 2,
+    "isPinned": false,
+    "content": {
+      "type": "text",
+      "text": "发现了一家超棒的咖啡店"
+    }
+  },
+  {
+    "id": "msg_30",
+    "avatar": "https://picsum.photos/id/18/100/100",
+    "nickname": "美妆达人",
+    "timestamp": 1763308800,
+    "summary": "[图片] 这款口红色号超显白",
+    "type": "friend",
+    "isRead": true,
+    "unreadCount": 0,
+    "isPinned": false,
+    "content": {
+      "type": "image",
+      "text": "这款口红色号超显白！",
+      "imageURL": "https://picsum.photos/400/300?makeup"
+    }
+  }
+]
